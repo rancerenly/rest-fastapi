@@ -1,0 +1,9 @@
+services:
+  fastapi:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - .:/app
+    environment:
+      - DATABASE_URL=sqlite:///./test.db

@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# MySQL
+*.sql
+
+# SQLite
+*.db
+
+# VS Code
+.vscode/
+
+# IDE
+.idea/
+
+# Docker
+*.dockerfile
+docker-compose.override.yml
+*.swp
+
+# Alembic versions
+alembic/versions/
+
+# Environment variables
+.env
+
+# FastAPI
+*.egg-info
